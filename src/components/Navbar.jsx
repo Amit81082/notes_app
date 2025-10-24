@@ -5,11 +5,15 @@ function Navbar () {
       <div className="logo">NoteX</div>
 
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/notes">Notes</a></li>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="#card-container">Notes</a>
+        </li>
       </ul>
     </nav>
-  )
+  );
 }
 
 export default Navbar;

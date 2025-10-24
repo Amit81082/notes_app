@@ -82,9 +82,9 @@ function App() {
       </main>
       <section>
         <h2>Your Notes Here</h2>
-        <div className="card-container">
+        <div className="card-container" id="card-container">
           {notes.length === 0 ? (
-            <p>Add a note to continue...</p>
+            <label htmlFor="title">Add a note to continue...</label>
           ) : (
             <div className="card-container">
               {notes.map((note, index) => (
@@ -98,7 +98,6 @@ function App() {
             </div>
           )}
         </div>
-
       </section>
     </>
   );
