@@ -19,6 +19,6 @@ A simple and fast Notes App built using **React** to create, edit, and delete no
 ## ⚙️ How to Run
 1. Clone the repo  
    ```bash
-   git clone <repo-link>
+   git clone https://github.com/Amit81082/notes_app.git
 
 
